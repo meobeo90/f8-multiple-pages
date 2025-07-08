@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scholar</title>
+    <title>Mint</title>
   </head>
   <body>
     <div class="wrapper">
       <%- include("./partials/header.ejs") %>
-      <h1>Home</h1>
+      <main>
+        <div class="container">
+          <img src="/mint.jpg" alt="Mint" class="col2" />
+          <ul>
+            <li>Breed: British Long Hair</li>
+            <li>Gender: Neutered male</li>
+            <li>Weight: 4.9kg</li>
+          </ul>
+        </div>
+      </main>
       <%- include("./partials/footer.ejs") %>
     </div>
     <script type="module" src="./main.js"></script>

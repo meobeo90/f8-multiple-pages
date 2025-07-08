@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Choco</title>
   </head>
   <body>
     <div class="wrapper">
       <%- include("./partials/header.ejs") %>
-      <h1>About</h1>
+      <main>
+        <div class="container">
+          <img src="/choco.jpg" alt="Choco" />
+          <ul>
+            <li>Breed: Russian Blue</li>
+            <li>Gender: Neutered female</li>
+            <li>Weight: 3.1kg</li>
+          </ul>
+        </div>
+      </main>
       <%- include("./partials/footer.ejs") %>
     </div>
     <script type="module" src="./main.js"></script>

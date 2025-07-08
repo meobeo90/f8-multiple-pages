@@ -1,0 +1,30 @@
+
+
+main .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 100px auto;
+    gap: 100px;
+}
+
+main img {
+    aspect-ratio: 3/4;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(173, 81, 81, 0.3);
+    width: 100%;
+}
+
+main li {
+    font-weight: 600;
+    font-size: 4rem;
+    color: rgba(173, 81, 81, 0.9);
+    line-height: 1.5;
+    padding: 30px 50px;
+}

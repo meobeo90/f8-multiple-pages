@@ -1,11 +1,17 @@
 @use "./reset";
 
 // Layout
-@use "./layout/grid";
+@use "./layout/main-body";
 @use "./layout/header";
 @use "./layout/footer";
 
 // Common
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|Source+Sans+Pro:300,400,600,700");
+
+:root {
+  --font-heading: "PT Sans", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
